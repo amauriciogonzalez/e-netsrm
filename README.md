@@ -10,8 +10,6 @@ Steganography, the practice of embedding hidden messages within digital media, p
 
 Download the [ALASKA2 dataset from Kaggle](https://www.kaggle.com/competitions/alaska2-image-steganalysis)
 
----
-
 ## Arguments
 
 The script accepts several command-line arguments to configure training, evaluation, and model variations:
