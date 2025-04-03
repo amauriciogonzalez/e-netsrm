@@ -2,6 +2,10 @@
 
 ![MSVA Pipeline](https://github.com/user-attachments/assets/28b2a361-0246-426c-aa0a-bebc1afd0827)
 
+## Abstract
+
+Steganography, the practice of embedding hidden messages within digital media, poses cybersecurity risks by enabling covert communication and malware transmission. Steganalysis aims to detect these hidden messages but struggles with subtle steganographic modifications. This study introduces E-NetSRM, an enhanced EfficientNet-based steganalysis model incorporating preprocessing and architectural refinements. This study integrates a high-pass filtering layer using Spatial Rich Model (SRM) kernels to emphasize noise residuals, introduces a Siamese modification for pairwise feature comparison, and modifies the EfficientNet input stem and backbone for improved low-level feature extraction. Evaluated on the ALASKA2 dataset, E-NetSRM outperforms baseline models, including CCNet, SiaStegNet, and EfficientNet variants. An ablation study highlights the benefits of high-pass filtering and architectural modifications, though the Siamese approach presents training instability. Key contributions include the development of E-NetSRM, an in-depth ablation analysis, and the open-source release of CCNet. This study emphasizes the importance of preprocessing and model refinements in improving deep learning-based steganalysis.
+
 ## Setup
 
 Download the [ALASKA2 dataset from Kaggle](https://www.kaggle.com/competitions/alaska2-image-steganalysis)
